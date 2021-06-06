@@ -1,0 +1,95 @@
+/*―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
+――
+headerとfooterは03style.cssから適用
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+/* .header
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+.top_img{
+    background-image: url(../images/contact_bg.png.jpg);
+}
+/* contact_page
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+.contact_form{
+    font-family: 'Noto Sans CJK JP';
+    margin: 0 auto;
+    width: 80%;
+}
+.contact_form h3{
+    text-align: center;
+    font-size: 16.3px;
+    margin-bottom: 65px;
+    font-weight: normal;
+}
+.form_area{
+    display: flex;
+    justify-content:flex-start;
+    width: 730px;
+    line-height: 50px;
+    margin: 30px auto;
+}
+.form_area >:last-child{
+    margin-left: auto;
+}
+.form_area label{
+    width: 90px;
+    font-size: 16px;
+    color:  #952c3e;
+}
+
+.mandatory{
+    width: 40px ;
+    line-height: 20px;
+    text-align: center;
+    background-color:  #952c3e;
+    color: #fff;
+    font-size: 11px;
+    margin: auto 0;
+    letter-spacing: 1px;
+}
+.form_area input,textarea{
+    width: 570px;
+    border: 1px solid #cccccc;
+}
+.form_area textarea{
+    resize: none;
+    line-height: 20px;
+    height: 200px;
+}
+.btn_area{
+    text-align: center;
+}
+.btn_area input{
+    background-color: #333333;
+    color: #fff;
+    width: 280px;
+    height: 65px;
+    font-family: 'NotoSerifCJKjp';
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 30px;
+    text-indent: 30px;
+}
+.btn_area input:hover{
+    opacity: 0.5;
+}
+
+/* SP
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+@media screen and (max-width: 830px){
+    .form_area{
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+    }
+    .form_area input{
+        line-height: 50px;
+    }
+    .form_area input,textarea{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

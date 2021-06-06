@@ -1,0 +1,161 @@
+/*―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― 
+――
+0.全体に適用するCSS
+
+1.header
+
+2.main
+
+3.footer
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+/* 0.全体に適用するCSS
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+
+html{
+    font-family: 'Noto Sans CJK JP', serif;
+}
+/* 1.header
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+.top_img{
+    background-image: url(../images/article_img.jpg);
+}
+
+/* 2.main
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+/* main-left
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+.category_item_area{
+    margin-bottom: 55px;
+}
+.searchform{
+    display: flex;
+    border: solid 10px #f5f5f5;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.searchform:last-child{
+    border-right: solid 10px #f5f5f5;
+  }
+.searchfield{
+    border: none;
+    width: 100%;
+}
+.serach_box_area{
+    margin-bottom: 55px;
+    position: static;
+}
+
+.post-categories{
+    display: flex;
+}
+.post-categories li{
+    width: 90px;
+    line-height: 24px;
+    background-color: #333333;
+    color: #ffffff;
+    top: 9px;
+    left: 9px;
+    font-size: 12px;
+    text-align: center;
+    margin: 10px;
+} 
+.cat-item{
+    line-height: 50px;
+    width: 270px;
+    font-size: 16px;
+    border-bottom: 1px solid #cccccc;
+  }
+
+/* main-right
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+.article_title h3{
+    font-size: 27px;
+    line-height: 40px;
+    color: #952c3e;
+    letter-spacing: 0.025em;
+    padding: 10px 0px 20px 0px;
+}
+.article_img img{
+    width: 100%;
+}
+.sub_article_title{
+    font-size: 18px;
+    line-height: 40px;
+    margin: 30px 0px;
+}
+.sub_article_text_area{
+    display: flex;
+    margin-bottom: 20px;
+}
+.sub_article_text_title{
+    width: 200px;
+    height: 53px;
+    background-color: #952c3e;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 53px;
+    padding-left: 30px;
+}
+.sub_article_text{
+    line-height:  53px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.sub_article_text a{
+    display: inline;
+    color:  #952c3e;
+    text-decoration-line: underline;
+}
+@media screen and (max-width: 1220px){
+    .sub_article_text_area{
+        display: block;
+    }
+    .article_img img{
+        width: 100%;
+    }
+}
+/* secondary_ariticle_text_area
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+.secondary_ariticle_text_area{
+    margin: 55px 0px 155px 0px;
+}
+.secondary_ariticle_text{
+    margin-bottom: 60px;
+}
+.secondary_ariticle_text h4{
+    font-size: 22px;
+    line-height: 40px;
+    border-bottom: solid 1px #333333;
+}
+.secondary_ariticle_text p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+/* pagenation
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+*/
+.pagenation{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    margin-bottom: 180px;
+}
+.pagenation a{
+    font-size: 14px;
+    line-height: 60px;
+}
+@media screen and (max-width: 1220px){
+    .pagenation{
+        margin-bottom: 0px;
+    }
+}
