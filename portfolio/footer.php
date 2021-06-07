@@ -5,7 +5,7 @@
                 LOGO
             </div>
             <div class="ft_title">
-                <h2>合同会社G&N</h2>
+                <h2>合同会社R&G</h2>
             </div>
             <div class="sns">
                 <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/twitter.png')); ?>"></a>
@@ -39,7 +39,7 @@
         </ul>
     </div>
     <div class="copy_light">
-        &copy; copylight G&N all right reserved
+        &copy; copylight R&G all right reserved
     </div>
 
 

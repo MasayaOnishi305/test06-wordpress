@@ -7,7 +7,7 @@ headerとfooterは03style.cssから適用
 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
 */
 .top_img{
-    background-image: url(../images/contact_bg.png.jpg);
+    background-image: url(../images/contact_bg.png);
 }
 /* contact_page
 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――

@@ -4,7 +4,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>合同会社G&N</title>
+    <title>合同会社R&G</title>
     <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('css/reset.css')); ?>">
     <link rel="stylesheet" href="<?php echo esc_url(get_theme_file_uri('css/03style.css')); ?>">
     <?php if(is_single()): ?>
@@ -25,8 +25,8 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('images/logo_img.png')); ?>">
                     </div>
                     <div class="logo_title">
-                        <h1>合同会社G&N</h1>
-                        <p>Growth and Netincome</p>
+                        <h1>合同会社R&G</h1>
+                        <p>Rise and Grow</p>
                     </div>
                 </a>
             </div>
@@ -60,8 +60,8 @@
                                 <img src="<?php echo esc_url(get_theme_file_uri('images/logo_img.png')); ?>">
                             </div>
                             <div class="logo_title">
-                                <h1>合同会社G&N</h1>
-                                <p>Growth and Netincome</p>
+                                <h1>合同会社R&G</h1>
+                                <p>Rise and Grow</p>
                             </div>
                         </a>
                     </div>
